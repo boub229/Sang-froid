@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 43d6693c160f74742ba4eaa051baa18c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43d6693c160f74742ba4eaa051baa18c, type: 3}
       propertyPath: m_LocalScale.x
@@ -339,7 +339,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: dfc903866570dc74eacd45dff319a9b1, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 5
+=======
+      value: 3
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dfc903866570dc74eacd45dff319a9b1, type: 3}
       propertyPath: m_LocalScale.x
@@ -408,7 +412,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3a096ab64b7304940a8e67d6c8b91ac1, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 5
+=======
+      value: 4
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3a096ab64b7304940a8e67d6c8b91ac1, type: 3}
       propertyPath: m_LocalScale.x
