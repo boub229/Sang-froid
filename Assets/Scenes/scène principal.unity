@@ -9226,6 +9226,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 196213670}
     m_Modifications:
+    - target: {fileID: 5320843964598545215, guid: d8ec6671cdb601940835124737b43faa, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16204332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320843964598545215, guid: d8ec6671cdb601940835124737b43faa, type: 3}
+      propertyPath: m_Size.y
+      value: 0.045214694
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320843964598545215, guid: d8ec6671cdb601940835124737b43faa, type: 3}
+      propertyPath: m_Center.x
+      value: -0.00035678083
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320843964598545215, guid: d8ec6671cdb601940835124737b43faa, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0022590137
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320843964598545215, guid: d8ec6671cdb601940835124737b43faa, type: 3}
+      propertyPath: m_Center.z
+      value: -0.0008122359
+      objectReference: {fileID: 0}
     - target: {fileID: 5914659839534126066, guid: d8ec6671cdb601940835124737b43faa, type: 3}
       propertyPath: m_Name
       value: bureau (12)
