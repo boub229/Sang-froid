@@ -11,7 +11,7 @@ public class FlickeringLight : MonoBehaviour {
     public float Timer;
 
     public AudioSource AS;
-    public AudioClip LightAudio;
+   // public AudioClip LightAudio;
 
     // Start is called before the first frame update
     void Start()
