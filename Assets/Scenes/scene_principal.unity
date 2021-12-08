@@ -3068,7 +3068,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569312303}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 2
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -3143,7 +3143,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3628,7 +3628,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 500
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 1
     rotation3D: 0
@@ -4333,7 +4333,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
-        key1: {r: 1, g: 1, b: 1, a: 0.019607844}
+        key1: {r: 1, g: 1, b: 1, a: 0.02745098}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -4351,7 +4351,7 @@ ParticleSystem:
         atime0: 0
         atime1: 32768
         atime2: 65535
-        atime3: 0
+        atime3: 65535
         atime4: 0
         atime5: 0
         atime6: 0
@@ -9938,7 +9938,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3665324765242335540, guid: fea37a22c3f99814fb70d8ebebf0001e, type: 3}
       propertyPath: m_Intensity
-      value: 995.34766
+      value: 361.6069
       objectReference: {fileID: 0}
     - target: {fileID: 3665324765242335541, guid: fea37a22c3f99814fb70d8ebebf0001e, type: 3}
       propertyPath: m_Color.b
@@ -9958,7 +9958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3665324765242335541, guid: fea37a22c3f99814fb70d8ebebf0001e, type: 3}
       propertyPath: m_Intensity
-      value: 79.207245
+      value: 28.775763
       objectReference: {fileID: 0}
     - target: {fileID: 3665324765242335541, guid: fea37a22c3f99814fb70d8ebebf0001e, type: 3}
       propertyPath: m_UseColorTemperature
@@ -10040,37 +10040,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3665324765242335542, guid: fea37a22c3f99814fb70d8ebebf0001e, type: 3}
   m_PrefabInstance: {fileID: 1182549142}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1182549145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182549144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &1182549146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182549144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 529256e116bba0047a65b032726fee7a, type: 2}
 --- !u!4 &1192762030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ee24329b8f08d7b41a5a8f751b552156, type: 3}
@@ -11129,7 +11098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1351756448
 Transform:
   m_ObjectHideFlags: 0
@@ -11365,9 +11334,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"audio_ambiance","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"audio_ambiance","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tueur_light_object","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"police_lumieres","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"pivot","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1385052047}
+    - {fileID: 1182549144}
+    - {fileID: 1351756447}
+    - {fileID: 670054684738194397}
 --- !u!114 &1385052039
 MonoBehaviour:
   m_ObjectHideFlags: 0
